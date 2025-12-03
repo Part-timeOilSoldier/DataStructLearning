@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/MyCodes/CPP/DataStructLearning/build",
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\g++.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_CXX.rsp -g -std=gnu++23 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\main.cpp.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\main.cpp",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/main.cpp",
+  "output": "CMakeFiles/datastructlearning.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/MyCodes/CPP/DataStructLearning/build",
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\g++.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_CXX.rsp -g -std=gnu++23 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\lib\\ui.cpp.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\lib\\ui.cpp",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/lib/ui.cpp",
+  "output": "CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+G:\programfiles\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\datastructlearning.dir/objects.a
+G:\programfiles\msys64\ucrt64\bin\ar.exe qc CMakeFiles\datastructlearning.dir/objects.a @CMakeFiles\datastructlearning.dir\objects1.rsp
+G:\programfiles\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\datastructlearning.dir/objects.a -Wl,--no-whole-archive -o D:\MyCodes\CPP\DataStructLearning\bin\datastructlearning.exe -Wl,--out-implib,libdatastructlearning.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\datastructlearning.dir\linkLibs.rsp
