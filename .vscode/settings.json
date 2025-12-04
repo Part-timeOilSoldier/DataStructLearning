@@ -1,4 +1,5 @@
-{
+{   
+    "clang-format.executable": "G:/programfiles/clang+llvm-21.1.7-x86_64-pc-windows-msvc/bin/clang-format.exe",
     "cmake.sourceDirectory": "D:/MyCodes/CPP/DataStructLearning",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {

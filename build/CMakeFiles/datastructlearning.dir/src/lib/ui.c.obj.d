@@ -1,0 +1,25 @@
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj: \
+ D:\MyCodes\CPP\DataStructLearning\src\lib\ui.c \
+ G:/programfiles/msys64/ucrt64/include/stdio.h \
+ G:/programfiles/msys64/ucrt64/include/corecrt_stdio_config.h \
+ G:/programfiles/msys64/ucrt64/include/corecrt.h \
+ G:/programfiles/msys64/ucrt64/include/_mingw.h \
+ G:/programfiles/msys64/ucrt64/include/_mingw_mac.h \
+ G:/programfiles/msys64/ucrt64/include/_mingw_secapi.h \
+ G:/programfiles/msys64/ucrt64/include/vadefs.h \
+ G:/programfiles/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ G:/programfiles/msys64/ucrt64/include/_mingw_off_t.h \
+ G:/programfiles/msys64/ucrt64/include/swprintf.inl \
+ G:/programfiles/msys64/ucrt64/include/sec_api/stdio_s.h \
+ G:/programfiles/msys64/ucrt64/include/stdlib.h \
+ G:/programfiles/msys64/ucrt64/include/corecrt_wstdlib.h \
+ G:/programfiles/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ G:/programfiles/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ G:/programfiles/msys64/ucrt64/include/limits.h \
+ G:/programfiles/msys64/ucrt64/include/crtdefs.h \
+ G:/programfiles/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ G:/programfiles/msys64/ucrt64/include/malloc.h \
+ G:/programfiles/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ G:/programfiles/msys64/ucrt64/include/errno.h \
+ G:/programfiles/msys64/ucrt64/include/string.h \
+ G:/programfiles/msys64/ucrt64/include/sec_api/string_s.h

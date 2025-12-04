@@ -17,7 +17,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)                                     # 要求
 if(NOT CMAKE_BUILD_TYPE)                                                # 如果没有手动指定构建类型
     set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)         # 默认设为 Debug 模式（方便调试）
 endif()
-
+ 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)                                   # 生成 compile_commands.json，方便 VSCode / clangd 智能分析
 
 
