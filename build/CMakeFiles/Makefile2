@@ -84,12 +84,12 @@ clean: CMakeFiles/datastructlearning.dir/clean
 CMakeFiles/datastructlearning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=1,2,3 "Built target datastructlearning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target datastructlearning"
 .PHONY : CMakeFiles/datastructlearning.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/datastructlearning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/datastructlearning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles 0
 .PHONY : CMakeFiles/datastructlearning.dir/rule
@@ -101,7 +101,7 @@ datastructlearning: CMakeFiles/datastructlearning.dir/rule
 # codegen rule for target.
 CMakeFiles/datastructlearning.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target datastructlearning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target datastructlearning"
 .PHONY : CMakeFiles/datastructlearning.dir/codegen
 
 # clean rule for target.

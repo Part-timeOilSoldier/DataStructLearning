@@ -128,53 +128,101 @@ datastructlearning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/build
 .PHONY : datastructlearning/fast
 
-src/lib/ui.obj: src/lib/ui.cpp.obj
+src/lib/pointdata.obj: src/lib/pointdata.c.obj
+.PHONY : src/lib/pointdata.obj
+
+# target to build an object file
+src/lib/pointdata.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj
+.PHONY : src/lib/pointdata.c.obj
+
+src/lib/pointdata.i: src/lib/pointdata.c.i
+.PHONY : src/lib/pointdata.i
+
+# target to preprocess a source file
+src/lib/pointdata.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.i
+.PHONY : src/lib/pointdata.c.i
+
+src/lib/pointdata.s: src/lib/pointdata.c.s
+.PHONY : src/lib/pointdata.s
+
+# target to generate assembly for a file
+src/lib/pointdata.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.s
+.PHONY : src/lib/pointdata.c.s
+
+src/lib/ui.obj: src/lib/ui.c.obj
 .PHONY : src/lib/ui.obj
 
 # target to build an object file
-src/lib/ui.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj
-.PHONY : src/lib/ui.cpp.obj
+src/lib/ui.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj
+.PHONY : src/lib/ui.c.obj
 
-src/lib/ui.i: src/lib/ui.cpp.i
+src/lib/ui.i: src/lib/ui.c.i
 .PHONY : src/lib/ui.i
 
 # target to preprocess a source file
-src/lib/ui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.i
-.PHONY : src/lib/ui.cpp.i
+src/lib/ui.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.c.i
+.PHONY : src/lib/ui.c.i
 
-src/lib/ui.s: src/lib/ui.cpp.s
+src/lib/ui.s: src/lib/ui.c.s
 .PHONY : src/lib/ui.s
 
 # target to generate assembly for a file
-src/lib/ui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.s
-.PHONY : src/lib/ui.cpp.s
+src/lib/ui.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/ui.c.s
+.PHONY : src/lib/ui.c.s
 
-src/main.obj: src/main.cpp.obj
+src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-src/main.i: src/main.cpp.i
+src/main.i: src/main.c.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/main.s: src/main.cpp.s
+src/main.s: src/main.c.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/third_party/sqlite3.obj: src/third_party/sqlite3.c.obj
+.PHONY : src/third_party/sqlite3.obj
+
+# target to build an object file
+src/third_party/sqlite3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj
+.PHONY : src/third_party/sqlite3.c.obj
+
+src/third_party/sqlite3.i: src/third_party/sqlite3.c.i
+.PHONY : src/third_party/sqlite3.i
+
+# target to preprocess a source file
+src/third_party/sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.i
+.PHONY : src/third_party/sqlite3.c.i
+
+src/third_party/sqlite3.s: src/third_party/sqlite3.c.s
+.PHONY : src/third_party/sqlite3.s
+
+# target to generate assembly for a file
+src/third_party/sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.s
+.PHONY : src/third_party/sqlite3.c.s
 
 # Help Target
 help:
@@ -185,12 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... datastructlearning
+	@echo ... src/lib/pointdata.obj
+	@echo ... src/lib/pointdata.i
+	@echo ... src/lib/pointdata.s
 	@echo ... src/lib/ui.obj
 	@echo ... src/lib/ui.i
 	@echo ... src/lib/ui.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/third_party/sqlite3.obj
+	@echo ... src/third_party/sqlite3.i
+	@echo ... src/third_party/sqlite3.s
 .PHONY : help
 
 

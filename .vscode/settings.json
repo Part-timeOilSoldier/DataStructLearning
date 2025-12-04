@@ -2,6 +2,8 @@
     "cmake.sourceDirectory": "D:/MyCodes/CPP/DataStructLearning",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "stdlib.h": "c",
+        "string.h": "c"
     }
 }

@@ -1,14 +1,26 @@
 [
 {
   "directory": "D:/MyCodes/CPP/DataStructLearning/build",
-  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\g++.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_CXX.rsp -g -std=gnu++23 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\main.cpp.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\main.cpp",
-  "file": "D:/MyCodes/CPP/DataStructLearning/src/main.cpp",
-  "output": "CMakeFiles/datastructlearning.dir/src/main.cpp.obj"
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\main.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\main.c",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/main.c",
+  "output": "CMakeFiles/datastructlearning.dir/src/main.c.obj"
 },
 {
   "directory": "D:/MyCodes/CPP/DataStructLearning/build",
-  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\g++.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_CXX.rsp -g -std=gnu++23 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\lib\\ui.cpp.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\lib\\ui.cpp",
-  "file": "D:/MyCodes/CPP/DataStructLearning/src/lib/ui.cpp",
-  "output": "CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj"
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\lib\\ui.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\lib\\ui.c",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/lib/ui.c",
+  "output": "CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj"
+},
+{
+  "directory": "D:/MyCodes/CPP/DataStructLearning/build",
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\lib\\pointdata.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\lib\\pointdata.c",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/lib/pointdata.c",
+  "output": "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj"
+},
+{
+  "directory": "D:/MyCodes/CPP/DataStructLearning/build",
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\third_party\\sqlite3.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\third_party\\sqlite3.c",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/third_party/sqlite3.c",
+  "output": "CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
 }
 ]

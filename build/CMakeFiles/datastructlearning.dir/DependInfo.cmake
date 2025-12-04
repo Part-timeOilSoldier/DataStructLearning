@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/MyCodes/CPP/DataStructLearning/src/lib/ui.cpp" "CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj.d"
-  "D:/MyCodes/CPP/DataStructLearning/src/main.cpp" "CMakeFiles/datastructlearning.dir/src/main.cpp.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/main.cpp.obj.d"
+  "D:/MyCodes/CPP/DataStructLearning/src/lib/pointdata.c" "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj.d"
+  "D:/MyCodes/CPP/DataStructLearning/src/lib/ui.c" "CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj.d"
+  "D:/MyCodes/CPP/DataStructLearning/src/main.c" "CMakeFiles/datastructlearning.dir/src/main.c.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/main.c.obj.d"
+  "D:/MyCodes/CPP/DataStructLearning/src/third_party/sqlite3.c" "CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj" "gcc" "CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -71,51 +71,85 @@ include CMakeFiles/datastructlearning.dir/flags.make
 CMakeFiles/datastructlearning.dir/codegen:
 .PHONY : CMakeFiles/datastructlearning.dir/codegen
 
-CMakeFiles/datastructlearning.dir/src/main.cpp.obj: CMakeFiles/datastructlearning.dir/flags.make
-CMakeFiles/datastructlearning.dir/src/main.cpp.obj: CMakeFiles/datastructlearning.dir/includes_CXX.rsp
-CMakeFiles/datastructlearning.dir/src/main.cpp.obj: D:/MyCodes/CPP/DataStructLearning/src/main.cpp
-CMakeFiles/datastructlearning.dir/src/main.cpp.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/datastructlearning.dir/src/main.cpp.obj"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/main.cpp.obj -MF CMakeFiles\datastructlearning.dir\src\main.cpp.obj.d -o CMakeFiles\datastructlearning.dir\src\main.cpp.obj -c D:\MyCodes\CPP\DataStructLearning\src\main.cpp
+CMakeFiles/datastructlearning.dir/src/main.c.obj: CMakeFiles/datastructlearning.dir/flags.make
+CMakeFiles/datastructlearning.dir/src/main.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
+CMakeFiles/datastructlearning.dir/src/main.c.obj: D:/MyCodes/CPP/DataStructLearning/src/main.c
+CMakeFiles/datastructlearning.dir/src/main.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/datastructlearning.dir/src/main.c.obj"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/main.c.obj -MF CMakeFiles\datastructlearning.dir\src\main.c.obj.d -o CMakeFiles\datastructlearning.dir\src\main.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\main.c
 
-CMakeFiles/datastructlearning.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/datastructlearning.dir/src/main.cpp.i"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\main.cpp > CMakeFiles\datastructlearning.dir\src\main.cpp.i
+CMakeFiles/datastructlearning.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/datastructlearning.dir/src/main.c.i"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\main.c > CMakeFiles\datastructlearning.dir\src\main.c.i
 
-CMakeFiles/datastructlearning.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/datastructlearning.dir/src/main.cpp.s"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\main.cpp -o CMakeFiles\datastructlearning.dir\src\main.cpp.s
+CMakeFiles/datastructlearning.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/main.c.s"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\main.c -o CMakeFiles\datastructlearning.dir\src\main.c.s
 
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj: CMakeFiles/datastructlearning.dir/flags.make
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj: CMakeFiles/datastructlearning.dir/includes_CXX.rsp
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj: D:/MyCodes/CPP/DataStructLearning/src/lib/ui.cpp
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj -MF CMakeFiles\datastructlearning.dir\src\lib\ui.cpp.obj.d -o CMakeFiles\datastructlearning.dir\src\lib\ui.cpp.obj -c D:\MyCodes\CPP\DataStructLearning\src\lib\ui.cpp
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj: CMakeFiles/datastructlearning.dir/flags.make
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj: D:/MyCodes/CPP/DataStructLearning/src/lib/ui.c
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj -MF CMakeFiles\datastructlearning.dir\src\lib\ui.c.obj.d -o CMakeFiles\datastructlearning.dir\src\lib\ui.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\lib\ui.c
 
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.i"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\lib\ui.cpp > CMakeFiles\datastructlearning.dir\src\lib\ui.cpp.i
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/datastructlearning.dir/src/lib/ui.c.i"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\lib\ui.c > CMakeFiles\datastructlearning.dir\src\lib\ui.c.i
 
-CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.s"
-	G:\programfiles\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\lib\ui.cpp -o CMakeFiles\datastructlearning.dir\src\lib\ui.cpp.s
+CMakeFiles/datastructlearning.dir/src/lib/ui.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/lib/ui.c.s"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\lib\ui.c -o CMakeFiles\datastructlearning.dir\src\lib\ui.c.s
+
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj: CMakeFiles/datastructlearning.dir/flags.make
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj: D:/MyCodes/CPP/DataStructLearning/src/lib/pointdata.c
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj -MF CMakeFiles\datastructlearning.dir\src\lib\pointdata.c.obj.d -o CMakeFiles\datastructlearning.dir\src\lib\pointdata.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\lib\pointdata.c
+
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.i"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\lib\pointdata.c > CMakeFiles\datastructlearning.dir\src\lib\pointdata.c.i
+
+CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.s"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\lib\pointdata.c -o CMakeFiles\datastructlearning.dir\src\lib\pointdata.c.s
+
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/flags.make
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: D:/MyCodes/CPP/DataStructLearning/src/third_party/sqlite3.c
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj -MF CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.obj.d -o CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\third_party\sqlite3.c
+
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.i"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\third_party\sqlite3.c > CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.i
+
+CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.s"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\third_party\sqlite3.c -o CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.s
 
 # Object files for target datastructlearning
 datastructlearning_OBJECTS = \
-"CMakeFiles/datastructlearning.dir/src/main.cpp.obj" \
-"CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj"
+"CMakeFiles/datastructlearning.dir/src/main.c.obj" \
+"CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj" \
+"CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj" \
+"CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
 
 # External object files for target datastructlearning
 datastructlearning_EXTERNAL_OBJECTS =
 
-D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/main.cpp.obj
-D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/ui.cpp.obj
+D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/main.c.obj
+D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj
+D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj
+D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/build.make
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/linkLibs.rsp
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/objects1.rsp
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable D:\MyCodes\CPP\DataStructLearning\bin\datastructlearning.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable D:\MyCodes\CPP\DataStructLearning\bin\datastructlearning.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\datastructlearning.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
