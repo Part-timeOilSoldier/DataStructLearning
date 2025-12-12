@@ -128,6 +128,30 @@ datastructlearning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/build
 .PHONY : datastructlearning/fast
 
+src/lib/common_operations.obj: src/lib/common_operations.c.obj
+.PHONY : src/lib/common_operations.obj
+
+# target to build an object file
+src/lib/common_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj
+.PHONY : src/lib/common_operations.c.obj
+
+src/lib/common_operations.i: src/lib/common_operations.c.i
+.PHONY : src/lib/common_operations.i
+
+# target to preprocess a source file
+src/lib/common_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.i
+.PHONY : src/lib/common_operations.c.i
+
+src/lib/common_operations.s: src/lib/common_operations.c.s
+.PHONY : src/lib/common_operations.s
+
+# target to generate assembly for a file
+src/lib/common_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructlearning.dir\build.make CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.s
+.PHONY : src/lib/common_operations.c.s
+
 src/lib/pointdata.obj: src/lib/pointdata.c.obj
 .PHONY : src/lib/pointdata.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... datastructlearning
+	@echo ... src/lib/common_operations.obj
+	@echo ... src/lib/common_operations.i
+	@echo ... src/lib/common_operations.s
 	@echo ... src/lib/pointdata.obj
 	@echo ... src/lib/pointdata.i
 	@echo ... src/lib/pointdata.s

@@ -19,6 +19,12 @@
 },
 {
   "directory": "D:/MyCodes/CPP/DataStructLearning/build",
+  "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\lib\\common_operations.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\lib\\common_operations.c",
+  "file": "D:/MyCodes/CPP/DataStructLearning/src/lib/common_operations.c",
+  "output": "CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj"
+},
+{
+  "directory": "D:/MyCodes/CPP/DataStructLearning/build",
   "command": "G:\\programfiles\\msys64\\ucrt64\\bin\\gcc.exe -DRESOURCE_DIR=\\\"D:/MyCodes/CPP/DataStructLearning/resources\\\" @CMakeFiles/datastructlearning.dir/includes_C.rsp -g -std=gnu17 -Wall -Wextra -Wpedantic -o CMakeFiles\\datastructlearning.dir\\src\\third_party\\sqlite3.c.obj -c D:\\MyCodes\\CPP\\DataStructLearning\\src\\third_party\\sqlite3.c",
   "file": "D:/MyCodes/CPP/DataStructLearning/src/third_party/sqlite3.c",
   "output": "CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"

@@ -1,11 +1,10 @@
+#include "ui.h"
+
 #include <stdio.h>   // printf, fprintf
 #include <stdlib.h>  // malloc, free
 #include <string.h>  // strlen, strcpy
 
-// ui文本框结构体
-typedef struct uiText {
-    char* text;
-} uiText;
+#include "common_operations.h"
 
 // ui文本框初始化
 uiText* uiTextCreat() {
@@ -17,7 +16,10 @@ uiText* uiTextCreat() {
     }
 
     // 初始化指针，防止出现野指针
-    p->text = NULL;
+    p->text  = NULL;
+    p->color = NULL;
+    p->style = NULL;
+    p->state = 0;
 
     return p;
 }
@@ -43,6 +45,15 @@ char* uiTextStrCopy(const char* text) {
 }
 
 // uitext输出到控制台
-// void showUiText(uiText){
+// 文本，颜色，样式
+void showUiText(const uiText* uiTextContents, const char* textColor, const char* textStyles) {
+    // 检查文本情况
+    if (!checkUiText(uiTextContents->text))
+        return;
 
-//}
+    fwrite(textColor, 1, strlen(textColor), stdout);                        // 颜色
+    fwrite(textStyles, 1, strlen(textStyles), stdout);                      // 样式
+    fwrite(uiTextContents->text, 1, strlen(uiTextContents->text), stdout);  // 内容
+    fwrite(RESET, 1, strlen(RESET), stdout);                                // 恢复样式
+    fflush(stdout);                                                         // 立即输出
+}

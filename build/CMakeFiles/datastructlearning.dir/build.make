@@ -116,11 +116,26 @@ CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.s"
 	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\lib\pointdata.c -o CMakeFiles\datastructlearning.dir\src\lib\pointdata.c.s
 
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj: CMakeFiles/datastructlearning.dir/flags.make
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj: D:/MyCodes/CPP/DataStructLearning/src/lib/common_operations.c
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj -MF CMakeFiles\datastructlearning.dir\src\lib\common_operations.c.obj.d -o CMakeFiles\datastructlearning.dir\src\lib\common_operations.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\lib\common_operations.c
+
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.i"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCodes\CPP\DataStructLearning\src\lib\common_operations.c > CMakeFiles\datastructlearning.dir\src\lib\common_operations.c.i
+
+CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.s"
+	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCodes\CPP\DataStructLearning\src\lib\common_operations.c -o CMakeFiles\datastructlearning.dir\src\lib\common_operations.c.s
+
 CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/flags.make
 CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/includes_C.rsp
 CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: D:/MyCodes/CPP/DataStructLearning/src/third_party/sqlite3.c
 CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj: CMakeFiles/datastructlearning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
 	G:\programfiles\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj -MF CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.obj.d -o CMakeFiles\datastructlearning.dir\src\third_party\sqlite3.c.obj -c D:\MyCodes\CPP\DataStructLearning\src\third_party\sqlite3.c
 
 CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.i: cmake_force
@@ -136,6 +151,7 @@ datastructlearning_OBJECTS = \
 "CMakeFiles/datastructlearning.dir/src/main.c.obj" \
 "CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj" \
 "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj" \
+"CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj" \
 "CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj"
 
 # External object files for target datastructlearning
@@ -144,12 +160,13 @@ datastructlearning_EXTERNAL_OBJECTS =
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/main.c.obj
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj
+D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/src/third_party/sqlite3.c.obj
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/build.make
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/linkLibs.rsp
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/objects1.rsp
 D:/MyCodes/CPP/DataStructLearning/bin/datastructlearning.exe: CMakeFiles/datastructlearning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable D:\MyCodes\CPP\DataStructLearning\bin\datastructlearning.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCodes\CPP\DataStructLearning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable D:\MyCodes\CPP\DataStructLearning\bin\datastructlearning.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\datastructlearning.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

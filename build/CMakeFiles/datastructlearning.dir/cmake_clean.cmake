@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj"
+  "CMakeFiles/datastructlearning.dir/src/lib/common_operations.c.obj.d"
   "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj"
   "CMakeFiles/datastructlearning.dir/src/lib/pointdata.c.obj.d"
   "CMakeFiles/datastructlearning.dir/src/lib/ui.c.obj"

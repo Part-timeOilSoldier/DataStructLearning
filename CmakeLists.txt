@@ -21,7 +21,7 @@ endif()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)                                   # 生成 compile_commands.json，方便 VSCode / clangd 智能分析
 
 
-# ======================= 路径相关（按你的项目结构） =======================
+# ======================= 路径相关 =======================
 
 set(PROJECT_ROOT "${CMAKE_SOURCE_DIR}")                                 # 项目根目录，即 DATASTRUCTLEARNING
 set(SRC_DIR      "${PROJECT_ROOT}/src")                                 # 源码目录 src
@@ -51,6 +51,7 @@ set(C_SOURCE_FILES                                                      # C 源�
     "${SRC_DIR}/main.c"
     "${LIB_DIR}/ui.c"
     "${LIB_DIR}/pointdata.c"
+    "${LIB_DIR}/common_operations.c"
 
     # ===== SQLite 源码 =====
     "${THIRD_PARTY_DIR}/sqlite3.c"   

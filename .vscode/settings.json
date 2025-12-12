@@ -1,10 +1,18 @@
-{   
+{
+    // 指定 clang-format 可执行文件路径，用于统一代码格式化
     "clang-format.executable": "G:/programfiles/clang+llvm-21.1.7-x86_64-pc-windows-msvc/bin/clang-format.exe",
+
+    // 指定 CMake 构建所使用的源码根目录（工程主目录）
     "cmake.sourceDirectory": "D:/MyCodes/CPP/DataStructLearning",
+
+    // 将 VSCode 的 C/C++ IntelliSense 配置交给 CMake Tools 自动管理
+    // 自动处理 include path / defines / 编译器信息
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+    // 文件类型关联：用于提升语法高亮与 IntelliSense 识别精度
     "files.associations": {
-        "iostream": "cpp",
-        "stdlib.h": "c",
-        "string.h": "c"
+        "iostream": "cpp",   // 识别 iostream 为 C++ 文件类型
+        "stdlib.h": "c",     // 识别 stdlib.h 为 C 头文件
+        "string.h": "c"      // 识别 string.h 为 C 头文件
     }
 }

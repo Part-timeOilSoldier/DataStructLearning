@@ -64,3 +64,21 @@
 // void showExitMenu();
 
 //} // namespace ui
+
+// UI 对象创建（返回堆对象，需要配套销毁）
+uiText* uiTextCreat(void);
+
+// 字符串复制（返回新堆内存，需外部 free）
+char* uiTextStrCopy(const char* text);
+
+// UI 文本输出（带颜色、样式控制）
+void showUiText(const uiText* uiTextContents, const char* textColor, const char* textStyles);
+
+// ======结构体======
+// ui文本框结构体
+typedef struct uiText {
+    char* text;
+    char* color;
+    char* style;
+    int   state;  // 被选中的状态，0表示未被选中，1表示选中
+} uiText;
