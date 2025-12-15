@@ -74,6 +74,9 @@ char* uiTextStrCopy(const char* text);
 // UI 文本输出（带颜色、样式控制）
 void showUiText(const uiText* uiTextContents, const char* textColor, const char* textStyles);
 
+// 释放uiText子内容及其指针
+void uiTextFree(uiText* uitext);
+
 // ======结构体======
 // ui文本框结构体
 typedef struct uiText {

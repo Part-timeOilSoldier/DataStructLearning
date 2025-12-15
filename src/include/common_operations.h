@@ -5,4 +5,4 @@
 
 int checkUiText(const char* str);
 
-void contentsCopy(const char* original, char* waiting);
+void contentsCopy(const char* src, char* dest);

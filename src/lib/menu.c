@@ -66,13 +66,25 @@ void menuSetTitleContents(menuUi* menu, char* content) {
 
 // 设置菜单选项
 void menuSetOptionsContents(menuUi* menu, char* content) {
-    // 无内容
+    // 如果无内容则返回
     if (content == NULL) {
         return;
     }
 
-    // 创建一个新text文本框
-    uiText* uiitem = uiTextCreat();
-    contentsCopy(content, uiitem->text);
+    uiText* uiitem = uiTextCreat();        // 创建一个新text文本框
+    contentsCopy(content, &uiitem->text);  // 复制文本到菜单选项中
+
+    // c语言规定：ptr + i  ≡  (char*)ptr + i * sizeof(*ptr)
+    uiText** tmp = realloc(menu->options, sizeof(uiText*) * (menu->optionCount + 1));
+
+    // 如果获取失败则释放初始化的uiText*指针及其子内容
+    // 因此这里引入中间指针tmp是为了安全考量
+    if (!tmp) {
+        uiTextFree(uiitem);
+        return;
+    }
+
+    menu->options                    = tmp;
+    menu->options[menu->optionCount] = uiitem;
     menu->optionCount++;
 }

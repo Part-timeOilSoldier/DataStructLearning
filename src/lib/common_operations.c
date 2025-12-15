@@ -30,13 +30,14 @@ int checkUiText(const char* str) {
     return 1;
 }
 
-// 字符串复制函数：负责分配新内存并拷贝内容（可以为 NULL）（需外部 free）
-void contentsCopy(const char* original, char* waiting) {
-    // 允许返回 NULL，表示空文本
-    if (original == NULL) {
-        return NULL;
-    }
+// 字符串复制函数：负责分配新内存并拷贝内容（可以为 NULL）
+void contentsCopy(const char* src, char** dest) {
+    if (!src || !dest)  // 允许返回 NULL，表示空文本
+        return;
 
-    // 复制字符串内容到新空间
-    strcpy(waiting, original);
+    char* dest = (char*)malloc(strlen(src) + 1);  // +1 给 '\0'
+    if (!dest)
+        return NULL;
+
+    strcpy(dest, src);  // 复制字符串内容到新空间
 }

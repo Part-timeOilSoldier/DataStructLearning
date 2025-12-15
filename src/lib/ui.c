@@ -24,6 +24,18 @@ uiText* uiTextCreat() {
     return p;
 }
 
+// 释放uiText子内容及其指针
+void uiTextFree(uiText* uitext) {
+    // 释放子内容
+    free(uitext->text);
+    free(uitext->color);
+    free(uitext->style);
+    free(uitext->state);
+
+    // 释放uiText指针
+    free(uitext);
+}
+
 // 字符串复制函数：负责分配新内存并拷贝内容（可以为 NULL）（需外部 free）
 char* uiTextStrCopy(const char* text) {
     // 允许返回 NULL，表示空文本
